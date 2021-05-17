@@ -234,7 +234,7 @@ function playPattern(pattern) {
     );
 
 
-    //Tone.context.resume();
+    Tone.context.resume();
     Tone.Transport.start();
 
 
