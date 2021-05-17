@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <title>Boite à R'ITMAC</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <!-- <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'> -->
+</head>
+
+<body>
+    <h2 class="heading">CHOOSE YOUR STYLE : </h2>
+    <div class="containertitle">
+        <div class="titre">Electro</div>
+        <div class="titre">Trap</div>
+        <div class="titre">Two-step</div>
+    </div>
+    <div class="containerplay">
+        <div class="play" id="electro" onclick="buttonPress(this.id)">
+            <div></div>
+        </div>
+        <div class="play" id="trap" onclick="buttonPress(this.id)">
+            <div></div>
+        </div>
+        <div class="play" id="2step" onclick="buttonPress(this.id)">
+            <div></div>
+        </div>
+    </div>
+
+    <div>
+        <div id='pattern-container'> </div>
+    </div>
+    <div class="containerButtons">
+        <div id="buttonPlay">
+            <div>
+            </div>
+            PLAY
+        </div>
+        <div id="buttonStop">
+            <div>
+            </div>
+            STOP
+        </div>
+    </div>
+
+    <div class="footnote">
+        <span class="info-container">
+            <div class="details animate-fadeIn" style="max-width: 350px;">
+                <div class="detail">Réalisé par Julien Calabrese, Elise Gondange et Léo Genot.</div>
+                <div class="explications">Instruments:
+                    <br>Ligne 1: Kick
+                    <br>Ligne 2: Flare
+                    <br>Ligne 3: Hi-hats
+                    <br>Ligne 4: Clap
+                    <br>Ligne 5: Hi-Hats 2
+                    <br>Ligne 6: Open-Hat
+                    <br>Ligne 7: Snare
+                </div>
+
+            </div>
+            ⓘ
+        </span>
+    </div>
+    <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/lodash@4.17.5/lodash.min.js'></script>
+    <script type='text/javascript' src='https://gogul09.github.io/js/tone.js'></script>
+    <script type='text/javascript'
+        src='https://cdn.jsdelivr.net/npm/@magenta/music@0.0.8/dist/magentamusic.min.js'></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
